@@ -1,0 +1,125 @@
+/* Fonte diferente para a descrição + cor fundo*/
+body {
+    background-color: rgb(255, 224, 229);
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+
+    margin: 0px;
+}
+
+/* Fonte diferente para o nome */
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: rgb(214, 45, 73); 
+    font-size: 50px;
+
+    text-align: center;
+    
+    background-color: rgb(255, 187, 198);
+
+    margin: 20px 0 10px 0;
+}
+
+#developer {
+    font-family: 'Ysabeau', sans-serif;
+    color: rgb(214, 45, 73); 
+
+    display: inline;
+    text-align: center;
+
+    background-color: rgb(255, 187, 198);
+
+    margin: 20px 0 10px 0;
+}
+
+.photo  {
+    text-align: center;
+}
+
+#picture {
+    border-radius: 20px;
+}
+
+.description {
+    text-align: justify;
+
+    margin: 0;
+    padding: 15px;
+    line-height: 30px;
+
+    background-color: rgb(236, 205, 210);
+}
+
+a {
+    font-weight: 600;
+    color: black;
+}
+
+.description-strong {
+    color:rgb(214, 45, 73);
+}
+
+/* Alteração do estilo da tag de destque*/
+em {
+    color:rgb(255, 82, 111)
+}
+
+#mine {
+    font-size: 35px;
+    color: rgb(214, 45, 73);
+
+    margin: 10px;
+}
+
+.habilities{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+
+    margin: 10px 10px 50px 10px;
+}
+
+/* Alteração tamanho do elemento da lista de habilidades*/
+.organizacao {
+    font-size: 25px;
+}
+
+#professional {
+    font-size: 35px;
+    color: rgb(214, 45, 73);
+
+    margin: 10px;
+}
+
+.linkedin{
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(214, 45, 73);
+    font-size: 35px;
+
+    margin: 10px;
+}
+
+#profile {
+    color: black;
+    font-size: 20px;
+}
+
+.title-links {
+    text-align: center;
+
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    color: rgb(214, 45, 73);
+
+    background-color: white;
+}
+
+.links {
+    text-align: justify;
+}
+
+.text {
+    margin: 0 0 0 10px;
+}
+
+

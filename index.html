@@ -4,42 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&family=Ysabeau:wght@1;100&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&family=Bebas+Neue&family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+
+    <title>Portfólio Maria Vitória</title>
 </head>
 <body>
     <!--NOME COMPLETO-->
     <h1>Maria Vitória Vieira Kunz da Silva Gomes</h1>
+    <h2 id="developer">&nbsp Front-end Developer &nbsp</h2>
     
     <!--FOTO ATUAL-->
-    <img src="./maria-vitoria.jpg" alt="Foto da Maria Vitória" width="300px">
-    <br>
+    <div class="photo">
+        <img id="picture" src="./maria-vitoria.jpg" alt="Foto da Maria Vitória" width="300px">
+    </div>
+
 
     <!--DESCRIÇÃO SOBRE MIM c/c NEGRITO E/OU ITÁLICO + LINK NA FOTO-->
-    <p>Me chamo <a href="./maria-vitoria.jpg"> Maria Vitória</a>, sou uma brasileira carioca colorada casada com mineiro, moramos em Lauro de Freitas/BA e temos 03 cachorros (Theo, Stitch e Moana). Tenho 26 anos, sou <em>bacharel em direito há 04 anos</em>, tenho <strong>certificação TOEIC</strong> e estou cursando Análise e Desenvolvimento de Sistemas na Estácio e Desenvolvimento Web pela <strong>Trybe</strong>.</p>
-    <br>
+    <div class="description">
+        <p class="description-paragraph">Me chamo <a href="./maria-vitoria.jpg"> Maria Vitória</a>, sou brasileira, carioca colorada com descendência alemã, casada com mineiro há 3 anos, residimos em Lauro de Freitas/BA e sou mãe de pet (Theo, Stitch e Moana). Tenho 26 anos, sou <em>bacharel em direito há 4 anos</em>, tenho <strong class="description-strong">certificação TOEIC</strong> e estou cursando Análise e Desenvolvimento de Sistemas na Estácio e Desenvolvimento Web pela <strong class="description-strong">Trybe</strong>.</p>
+    </div>
+
     
     <!--LISTA DE HABILIDADES COM DESTAQUE NA HABILIDADE QUE ME ORGULHO-->
-    <h2>Minhas habilidades:</h2>
-    <ul>
-        <li><a href="#comprometimento">Comprometimento;</a></li>
-        <li><a href="#foco">Foco;</a></li>    
-        <li><a href="#organizacao"><strong>Organização;</strong></a> </li>
-        <li><a href="#trabalho">Trabalho em equipe.</a> </li>
-    </ul>
+    <div class="habilities">
+        <h3 class="habilities" id="mine">Habilidades:</h3>
+        <ul class="habilities">
+            <li><a href="#comprometimento">Comprometimento;</a></li>
+            <li><a href="#foco">Foco;</a></li>    
+            <li><a href="#trabalho">Trabalho em equipe;</a> </li>
+            <li><a class="organizacao" href="#organizacao"><strong>Organização.</strong></a> </li>
+        </ul>
+        <h3 class="habilities" id="professional">Habilidades Profissionais:</h3>
+        <ul class="habilities">
+            <li>HTML;</li>
+            <li>CSS;</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+    </div>
+
 
     <!--LINK EXTERNO-->
-    <h2>Meu linkedin:</h2>
-    <a href="https://www.linkedin.com/in/maria-vit%C3%B3ria-kunz-gomes-3b5345233/" target="_blank">Clique aqui para acessar meu perfil</a>
+    <h2 class="linkedin">Meu linkedin:</h2>
+    <a href="https://www.linkedin.com/in/maria-vit%C3%B3ria-kunz-gomes-3b5345233/" target="_blank" class="linkedin" id="profile">Clique aqui para acessar meu perfil</a>
 
     <!--LINKS INTERNOS-->
-    <h4>Comprometimento:</h4>
-    <p id="comprometimento">Por meio do comprometimento, o colaborador se propõe a realizar todas as tarefas e demandas exigidas de maneira eficaz e produtiva. Ainda, é uma característica daquele que é íntegro e que demonstra seu comprometimento pelas atitudes e comportamentos.</p>
-    <h4>Foco</h4>
-    <p id="foco">A expressão “ter foco” significa ter um objetivo, estabelecer um planejamento, ter disciplina e persistência para atingir as metas e alcançar o que se pretende.</p>
-    <h4>Organização</h4>
-    <p id="organizacao">Quem é organizado tem o hábito de escrever suas pendências, listar as tarefas e colocá-las em ordem de prioridade. Essa atitude traz segurança e diminui a possibilidade de esquecimento. E não só isso, anotar tudo que é fundamental faz com que você evite de esquecer coisas importantes que precisam ser feitas.</p>
-    <h4>Trabalho em equipe</h4>
-    <p id="trabalho">O trabalho em equipe é a capacidade de se comunicar, saber ouvir, respeitar opiniões diferentes e, ao mesmo tempo, defender suas próprias ideias para se chegar a um resultado único, benéfico ao grupo e principalmente à organização.</p>
+    <div class="links">
+        <h4 class="title-links">COMPROMETIMENTO</h4>
+            <div class="text">
+                <p id="comprometimento">Por meio do comprometimento, o colaborador se propõe a realizar todas as tarefas e demandas exigidas de maneira eficaz e produtiva. Ainda, é uma característica daquele que é íntegro e que demonstra seu comprometimento pelas atitudes e comportamentos.</p>
+            </div>
+        <h4 class="title-links">FOCO</h4>   
+            <div class="text">
+                <p id="foco">A expressão “ter foco” significa ter um objetivo, estabelecer um planejamento, ter disciplina e persistência para atingir as metas e alcançar o que se pretende.</p>
+                </div>
+      
+        <h4 class="title-links">TRABALHO EM EQUIPE</h4>
+            <div class="text">
+                <p id="trabalho">O trabalho em equipe é a capacidade de se comunicar, saber ouvir, respeitar opiniões diferentes e, ao mesmo tempo, defender suas próprias ideias para se chegar a um resultado único, benéfico ao grupo e principalmente à organização.</p>
+            </div>
+        <h4 class="title-links">ORGANIZAÇÃO</h4>
+            <div class="text">
+                <p id="organizacao">Quem é organizado tem o hábito de escrever suas pendências, listar as tarefas e colocá-las em ordem de prioridade. Essa atitude traz segurança e diminui a possibilidade de esquecimento. E não só isso, anotar tudo que é fundamental faz com que você evite de esquecer coisas importantes que precisam ser feitas.</p>
+            </div>    
+        </div>
+    </div>
+    
 
 
 </body>
