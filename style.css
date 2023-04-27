@@ -139,6 +139,8 @@ em {
 .title-links {
     text-align: center;
 
+    padding: 5px;
+    margin: 20px 0 10px 0;
     top: 500px;
 
     font-family: 'Barlow Condensed', sans-serif;
