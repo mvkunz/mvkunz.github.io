@@ -35,7 +35,16 @@ h1 {
 }
 
 .photo  {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    max-width: 50%;
+
     text-align: center;
+
+    padding: 7px;
+    background-color: rgb(214, 45, 73);
+    border-radius: 20px;
 }
 
 #picture {
@@ -43,9 +52,15 @@ h1 {
 }
 
 .description {
+    position: absolute;
     text-align: justify;
+    left: 600px;
+    top: 270px;
+    max-width: 50%;
+
 
     margin: 0;
+    border-radius: 20px;
     padding: 15px;
     line-height: 30px;
 
@@ -80,12 +95,13 @@ em {
 }
 
 .habilities{
+    position: absolute;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
 
-    margin: 10px 10px 50px 10px;
+    top: 300px;
+    /* margin: 10px 10px 50px 10px; */
 }
-
 
 /* Alteração tamanho do elemento da lista de habilidades*/
 .organizacao {
@@ -104,7 +120,7 @@ em {
     color: rgb(214, 45, 73);
     font-size: 35px;
 
-    margin: 10px;
+    margin: 900px 10px 50px 10px;
 }
 
 #profile {
@@ -114,6 +130,8 @@ em {
 
 .title-links {
     text-align: center;
+
+    top: 500px;
 
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 40px;
