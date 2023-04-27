@@ -87,28 +87,22 @@ em {
     color:rgb(255, 82, 111)
 }
 
-#mine {
-    font-size: 35px;
-    color: rgb(214, 45, 73);
-
-    margin: 10px;
-
-}
-
 .habilities{
     position: absolute;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
 
-    top: 300px;
-    margin-top: 60px;
+    top: 700px;
 
     /* margin: 10px 10px 50px 10px; */
 }
 
-/* Alteração tamanho do elemento da lista de habilidades*/
-.organizacao {
-    font-size: 25px;
+#habilities-mine {
+    font-size: 35px;
+    color: rgb(214, 45, 73);
+
+    margin: 10px;
+
 }
 
 #professional {
@@ -116,7 +110,7 @@ em {
     color: rgb(214, 45, 73);
 
     margin: 10px;
-    margin-top: 400px;
+    margin-top: 90px;
 }
 
 .linkedin{
@@ -125,7 +119,14 @@ em {
     font-size: 35px;
 
     margin: 900px 10px 50px 10px;
+    
 }
+
+/* Alteração tamanho do elemento da lista de habilidades*/
+.organizacao {
+    font-size: 25px;
+}
+
 
 #profile {
     color: black;
